@@ -72,7 +72,8 @@ body {
         #confirm-terms-and-conditions {
             height:20px;
             width: 20px;
-            /* create custom checkbox */
+            accent-color: #0073FF;
+            /* create custom checkbox? */
         }
 
         p{
