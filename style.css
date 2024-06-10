@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    background: #F8F8FA;
+}
+
+#popup {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    width: 500px;
+    height: 500px;
+    border: 1px solid #E3E3EB;
+    border-radius: 20px;
+    margin: auto;
+    padding: 30px;
+    background: #FFFFFF;
+
+    #corporate {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        span {
+            font-family: Arial, Helvetica, sans-serif;
+            margin-left: 10px;
+            font-size: 24px;
+            font-weight: 600;
+            color:#0073FF;
+        }
+    }
+
+    #message {
+        text-align: center;
+        font-size: 15px;
+        color:grey;
+
+        #greeting {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 10px;
+            color: #44444F;
+
+            h1 {
+                font-size: 26px;
+            }
+
+            #wave {
+                margin-left: 10px;
+                height: 30px;
+                width: 30px;
+            }
+        }
+    }
+
+    #terms-and-conditions{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        font-size: 16px;
+        color:#44444F;
+
+        #confirm-terms-and-conditions {
+            height:20px;
+            width: 20px;
+            /* create custom checkbox */
+        }
+
+        p{
+            margin-left: 10px;
+        }
+        a{
+            color: #0073FF;
+        }
+    }
+
+    #button-container {
+        height: 180px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .login-button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 50px;
+            border: 1px solid #E3E3EB;
+            border-radius: 15px;
+            background: #F8F8FA;
+            color:#44444F;
+            font-size: 16px;
+            font-weight: bold;
+
+            .logo {
+                height: 20px;
+                width: 20px;
+                margin-right: 10px;
+            }
+        }
+    }
+
+    #sign-up {
+        text-align: center;
+        font-size: 14px;
+        color:#44444F;
+        a{
+            color: #0073FF;
+            text-decoration: none;
+        }
+    }
+}
+
+

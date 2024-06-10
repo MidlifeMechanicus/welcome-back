@@ -4,8 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome Back</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div id="popup">
+        <div id="corporate">
+            <img src="#" alt="logo">
+            <span>Dashboard</span></div>
+        <div id="message">
+            <div id="greeting">
+                <h1>Welcome Back</h1>
+                <img id="wave" src="./images/wave.jpeg" alt="Wave">
+            </div>
+            <p>Today is a new day. It's your day. You shape it.</p>
+            <p>Sign in to start managing your projects.</p>
+        </div>
+        <div id="terms-and-conditions">
+            <!-- Best tick box? -->
+             <input checked type="checkbox" id="confirm-terms-and-conditions"> 
+             <p>I have read and agree to our <a href="#">Terms & Conditions</a></p>
+             <!-- Include link -->
+        </div>
+        <div id="button-container">
+            <!-- Not sure these should strictly be buttons -->
+             <div class="login-button">
+                <img class="logo" src="./images/google-color.svg" alt="Google Logo">
+                <span>Continue with Google</span>
+             </div>
+
+             <div class="login-button">
+                <img class="logo" src="./images/ms-symbol.svg" alt="Microsoft Logo">
+                <span>Continue with Microsoft</span>
+             </div>
+
+             <div class="login-button">
+                <img class="logo" src="./images/Apple_logo_black.svg" alt="Apple Logo">
+                <span>Continue with Apple</span>
+             </div>
+        </div>
+        <div id="sign-up">
+            <p>Already have an account? <a href="#">Sign up</a></p>
+            <!-- Needs to be link with no underline. -->
+        </div>
+    </div>
     
 </body>
 </html>
